@@ -51,7 +51,7 @@ CREATE TABLE TheoryTeachers (
     VehicleCategoryID SMALLINT NOT NULL
 );
 
-CREATE TABLE Service (
+CREATE TABLE Services (
     ServiceID SMALLINT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
     VehicleCategoryID SMALLINT NOT NULL,
     TransmissionTypeID SMALLINT NOT NULL,
